@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Home page</title>
+</head>
+<body>
+    <h1>Prototype 1</h1>
+    <sub>Objective: Upload persistent comma separated value files to Webpage.</sub>
+    <p id="statusBar">Progress: <br></p>
+
+
+    <input type="file" id="fileInput">
+    
+    <!-- The <pre> tag. It's used for line breaks if the data's
+        About to be handled. Without this, rows would not be distinguishable
+        from each other when the computer reads it. -->
+    <pre id="fileContentDisplay"></pre>
+
+    <!-- Main script for uploading files. -->
+    <script src="fileUploads.js"></script>
+</body>
+</html>
